@@ -1,7 +1,7 @@
 // frontend/src/components/PongGame.tsx
 import React, { useRef, useEffect, useState } from 'react';
 import { socket } from './socket';
-import { type GameState, type Player, GAME_CONFIG } from './game';
+import { type GameState, GAME_CONFIG } from './game';
 const PongGame: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [gameState, setGameState] = useState<GameState | null>(null);
