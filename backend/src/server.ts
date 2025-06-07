@@ -10,7 +10,7 @@ const app = express();
 const server = createServer(app);
 
 
-const ALLOWED_ORIGIN = "http://localhost:5173"; 
+const ALLOWED_ORIGIN = "http://16.171.249.48:5173"; 
 
 // Configure CORS
 app.use(cors({
