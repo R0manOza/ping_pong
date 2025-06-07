@@ -1,4 +1,4 @@
-/// <reference types="node" />
+
 
 export interface GameState {
     ball: Ball;
@@ -39,7 +39,7 @@ export interface GameState {
     id: string;
     players: Map<string, Player>;
     gameState: GameState;
-    gameLoop?: NodeJS.Timeout;
+    gameLoop?: any;
   }
   
   // Socket Events
